@@ -1,0 +1,40 @@
+﻿ 										Go lang
+Identifiers:
+* The identifier represented by the underscore character(_) is known as a blank identifier. It is used as an anonymous placeholder instead of a regular identifier
+* The identifier which is allowed to access it from another package is known as the exported identifier.
+
+
+
+
+KEYWORDS:
+* There are total 25 keywords present in the Go language 
+*   
+
+
+
+DATA TYPES:
+
+4 categories
+1. Basic type: Numbers, strings, and booleans come under this category.
+2. Aggregate type: Array and structs come under this category.
+3. Reference type: Pointers, slices, maps, functions, and channels come under this category.
+4. Interface type
+GO VARIABLE:
+a Variable is a placeholder of the information which can be changed at runtime. And variables allow to Retrieve and Manipulate the stored information.
+var variable_name type = expression
+If the expression is removed, then the variable holds zero-value for the type like zero for the number, false for Booleans, “” for strings, and nil for interface and reference type. So, there is no such concept of an uninitialized variable in Go language.
+ := is a declaration and = is assignment.
+
+
+CONSTANT:
+const Correct= true
+RUNE:
+Always remember a string is a sequence of bytes not of a rune.
+UTF-8 encodes all the Unicode in between 1 to 4 bytes, where 1 byte is used for ASCII and rest used for the rune
+
+
+TYPE CASTING:
+var geek1 int = 845
+var geek2 float64 = float64(geek1)
+var geek3 int64 = int64(geek1)
+var geek4 uint = uint(geek1)
